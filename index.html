@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Нейтраль — мотомастерская на Заводской</title>
+<meta name="description" content="Ремонт и обслуживание мотоциклов. Сначала диагностика и цена, потом работа — только с вашего согласия.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=Russo+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap topbar-row">
+    <a href="tel:+79123456789" class="topbar-phone">+7 912 345-67-89</a>
+    <span class="topbar-hours">Вт–Пт 10:00–20:00, сб 11:00–18:00</span>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a href="#top" class="logo" aria-label="Нейтраль, на главную">
+      <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true">
+        <circle cx="16" cy="16" r="14" fill="none" stroke="currentColor" stroke-width="2.5"/>
+        <path d="M10.5 22V10l11 12V10" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+      </svg>
+      <span>Нейтраль</span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#services">Что чиним</a>
+      <a href="#price">Прайс</a>
+      <a href="#works">Работы</a>
+      <a href="#process">Как работаем</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a href="https://wa.me/79123456789" class="header-cta">Записаться</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Открыть меню" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <h1>Чиним мотоциклы без сюрпризов в чеке</h1>
+      <p class="hero-lede">Сначала диагностика и цена, потом работа. Если по ходу ремонта находим что-то ещё, звоним и спрашиваем, прежде чем трогать.</p>
+      <div class="hero-actions">
+        <a href="https://wa.me/79123456789" class="btn-primary">Записаться в WhatsApp</a>
+        <a href="#price" class="btn-ghost">Смотреть прайс</a>
+      </div>
+      <p class="hero-status" id="hoursStatus">Вторник–суббота, с 10:00 до 20:00</p>
+    </div>
+
+    <div class="tag-wrap">
+      <div class="tag-swing">
+        <span class="tag-string" aria-hidden="true"></span>
+        <article class="tag" aria-label="Пример заказ-наряда">
+          <span class="tag-hole" aria-hidden="true"></span>
+          <h2 class="tag-title">Заказ-наряд № 0147</h2>
+          <dl class="tag-fields">
+            <div><dt>Мотоцикл</dt><dd>Honda CB400 Super Four</dd></div>
+            <div><dt>Жалоба</dt><dd>Троит на холостых</dd></div>
+            <div><dt>Нашли</dt><dd>Грязные карбюраторы, сбита синхронизация</dd></div>
+            <div><dt>Сделаем</dt><dd>Чистка, синхронизация, замена свечей</dd></div>
+            <div><dt>Готово</dt><dd>завтра к 18:00</dd></div>
+          </dl>
+          <p class="tag-total"><span>Итого</span><strong>3 500&nbsp;₽</strong></p>
+          <span class="stamp" aria-hidden="true">Согласовано</span>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<aside class="promo" aria-label="Акция">
+  <div class="wrap promo-row">
+    <p><strong>Консервация на зиму до 30 ноября:</strong> 3&nbsp;000&nbsp;₽ вместо 3&nbsp;800&nbsp;₽, в цену входят расходники.</p>
+    <a href="https://wa.me/79123456789" class="promo-link">Записаться на консервацию</a>
+  </div>
+</aside>
+
+<section class="services" id="services">
+  <div class="wrap services-grid">
+    <h2>Что чиним</h2>
+    <div class="accordion">
+      <details open>
+        <summary>Ремонт и обслуживание</summary>
+        <p>Двигатель, сцепление, коробка, ходовая, тормоза. Работаем с японскими, европейскими и отечественными мотоциклами и скутерами. Плановое ТО по регламенту производителя.</p>
+      </details>
+      <details>
+        <summary>Электрика и диагностика</summary>
+        <p>Не заводится, не заряжает, сгорают лампы, мигает приборка. Ищем причину прибором, а не заменой всего подряд, и показываем результат на экране.</p>
+      </details>
+      <details>
+        <summary>Шиномонтаж и балансировка</summary>
+        <p>Снимаем и ставим колёса без царапин на дисках, балансируем, проверяем биение. Бескамерные и камерные покрышки.</p>
+      </details>
+      <details>
+        <summary>Подбор и заказ запчастей</summary>
+        <p>Подбираем по VIN и каталогу, заказываем оригинал и аналоги. Показываем разницу в цене и честно говорим, где аналог не стоит риска.</p>
+      </details>
+      <details>
+        <summary>Эвакуация мотоцикла</summary>
+        <p>Забираем по городу на мотоэвакуаторе, 1&nbsp;500&nbsp;₽ в пределах кольцевой. Если ремонт у нас, доставка в ту же сумму.</p>
+      </details>
+      <details>
+        <summary>Зимнее хранение</summary>
+        <p>Отапливаемый бокс, 2&nbsp;500&nbsp;₽ в месяц. Перед постановкой делаем консервацию, весной проверяем и запускаем.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="price" id="price">
+  <div class="wrap price-grid">
+    <div class="price-intro">
+      <h2>Прайс</h2>
+      <p>Цену на работу называем до начала ремонта. Запчасти считаем по чеку, наценка на них не больше 10%.</p>
+      <p class="price-note">Диагностика бесплатная, если вы остаётесь на ремонт. Отдельно стоит 1&nbsp;000&nbsp;₽. Если в ходе работ нашли что-то ещё, цена меняется только с вашего согласия.</p>
+    </div>
+
+    <div class="sheet">
+      <div class="price-tabs" role="group" aria-label="Раздел прайса">
+        <button type="button" class="tab" data-filter="all" aria-pressed="true">Всё</button>
+        <button type="button" class="tab" data-filter="service" aria-pressed="false">Обслуживание</button>
+        <button type="button" class="tab" data-filter="brakes" aria-pressed="false">Тормоза</button>
+        <button type="button" class="tab" data-filter="fuel" aria-pressed="false">Топливо и электрика</button>
+        <button type="button" class="tab" data-filter="wheels" aria-pressed="false">Колёса</button>
+        <button type="button" class="tab" data-filter="season" aria-pressed="false">Сезон</button>
+      </div>
+
+      <table class="price-table">
+        <thead>
+          <tr><th scope="col">Работа</th><th scope="col">Срок</th><th scope="col">Цена</th></tr>
+        </thead>
+        <tbody data-group="service">
+          <tr class="group-row"><th colspan="3" scope="colgroup">Обслуживание</th></tr>
+          <tr><td>Замена масла и фильтров <small>масло и фильтры отдельно</small></td><td>1 ч</td><td>от 1&nbsp;800&nbsp;₽</td></tr>
+          <tr><td>Замена цепи и звёзд <small>комплект</small></td><td>1,5 ч</td><td>2&nbsp;500&nbsp;₽</td></tr>
+          <tr><td>Регулировка клапанов</td><td>3–4 ч</td><td>от 4&nbsp;000&nbsp;₽</td></tr>
+        </tbody>
+        <tbody data-group="brakes">
+          <tr class="group-row"><th colspan="3" scope="colgroup">Тормоза</th></tr>
+          <tr><td>Замена колодок <small>за одну ось</small></td><td>40 мин</td><td>900&nbsp;₽</td></tr>
+          <tr><td>Прокачка тормозной системы</td><td>40 мин</td><td>1&nbsp;200&nbsp;₽</td></tr>
+          <tr><td>Замена тормозных шлангов</td><td>1,5 ч</td><td>2&nbsp;200&nbsp;₽</td></tr>
+        </tbody>
+        <tbody data-group="fuel">
+          <tr class="group-row"><th colspan="3" scope="colgroup">Топливо и электрика</th></tr>
+          <tr><td>Чистка и синхронизация карбюраторов</td><td>3–4 ч</td><td>3&nbsp;500&nbsp;₽</td></tr>
+          <tr><td>Диагностика электрики</td><td>1 ч</td><td>1&nbsp;000&nbsp;₽</td></tr>
+          <tr><td>Замена аккумулятора <small>работа</small></td><td>15 мин</td><td>500&nbsp;₽</td></tr>
+        </tbody>
+        <tbody data-group="wheels">
+          <tr class="group-row"><th colspan="3" scope="colgroup">Колёса</th></tr>
+          <tr><td>Шиномонтаж <small>за колесо</small></td><td>30 мин</td><td>800&nbsp;₽</td></tr>
+          <tr><td>Балансировка колеса</td><td>15 мин</td><td>400&nbsp;₽</td></tr>
+          <tr><td>Замена подшипников ступицы</td><td>2 ч</td><td>1&nbsp;800&nbsp;₽</td></tr>
+        </tbody>
+        <tbody data-group="season">
+          <tr class="group-row"><th colspan="3" scope="colgroup">Сезон</th></tr>
+          <tr><td>Консервация на зиму <small>до 30 ноября, по акции</small></td><td>3 ч</td><td>3&nbsp;000&nbsp;₽</td></tr>
+          <tr><td>Подготовка к сезону <small>весной</small></td><td>5 ч</td><td>4&nbsp;500&nbsp;₽</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="works" id="works">
+  <div class="wrap">
+    <h2>Недавние работы</h2>
+    <p class="works-lede">Три заказа из последних. Цена указана за работу, запчасти считались отдельно по чеку.</p>
+    <ul class="ledger">
+      <li>
+        <h3>Honda CB400 Super Four</h3>
+        <p>Троил на холостых. Почистили карбюраторы, синхронизировали, заменили свечи. Забрал на следующий день.</p>
+        <p class="ledger-meta"><span>1 день</span><strong>3&nbsp;500&nbsp;₽</strong></p>
+      </li>
+      <li>
+        <h3>Урал Gear Up, 2018</h3>
+        <p>Течь масла из-под коленвала. Заменили сальник, заодно отрегулировали клапаны.</p>
+        <p class="ledger-meta"><span>2 дня</span><strong>9&nbsp;800&nbsp;₽</strong></p>
+      </li>
+      <li>
+        <h3>Yamaha XJR1300</h3>
+        <p>Растянутая цепь и «ватный» тормоз. Поставили комплект цепи и звёзд, прокачали систему.</p>
+        <p class="ledger-meta"><span>1 день</span><strong>3&nbsp;700&nbsp;₽</strong></p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="process" id="process">
+  <div class="wrap">
+    <h2>Как проходит ремонт</h2>
+    <ol class="gears">
+      <li>
+        <h3>Принимаем и осматриваем</h3>
+        <p>Слушаем, что не так, смотрим мотоцикл на подъёмнике. Диагностика занимает около получаса.</p>
+      </li>
+      <li>
+        <h3>Называем цену и срок</h3>
+        <p>Записываем в заказ-наряд, что нашли и что будем делать. Без вашей подписи ничего не разбираем.</p>
+      </li>
+      <li>
+        <h3>Чиним</h3>
+        <p>Если находим что-то сверх списка, звоним и согласовываем. Старые детали отдаём, если попросите.</p>
+      </li>
+      <li>
+        <h3>Проверяем на ходу</h3>
+        <p>Выезжаем на тест-круг и только потом звоним вам. На работу даём гарантию 30 дней.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="limits" id="limits">
+  <div class="wrap limits-grid">
+    <h2>За что не беремся</h2>
+    <div class="limits-body">
+      <p>Лучше сразу сказать «нет», чем потом переделывать.</p>
+      <ul>
+        <li><strong>Рамы после серьёзных аварий.</strong> Геометрию мы не проверяем, для этого нужен стапель. Подскажем, куда обратиться.</li>
+        <li><strong>Тюнинг двигателя за пределами допусков.</strong> Расточка цилиндров, нестандартные распредвалы и прошивки без документов.</li>
+        <li><strong>Ремонт «за одну ночь» в сезон.</strong> С апреля по июнь очередь на неделю вперёд, и мы честно называем дату.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="reviews" id="reviews">
+  <div class="wrap reviews-grid">
+    <blockquote>
+      <p>Привёз мотоцикл с диагнозом «карбюраторы умерли». Через час позвонили: нужна чистка, новые не нужны. Сэкономил тысяч двенадцать.</p>
+      <cite>Андрей, Honda CB400</cite>
+    </blockquote>
+    <blockquote>
+      <p>Уралу сорок лет, и каждый ремонт обычно превращается в квест. Здесь сказали, что найдут сальник, и нашли. Это редкость.</p>
+      <cite>Сергей, Урал</cite>
+    </blockquote>
+  </div>
+</section>
+
+<section class="gallery" id="gallery">
+  <div class="wrap">
+    <h2>Работы и клиенты</h2>
+    <div class="gallery-grid">
+      <figure class="shot shot-work shot-main">
+        <div class="shot-ph ph-olive"><span>Место под фото работы</span></div>
+        <figcaption>Honda CB400 после чистки карбюраторов</figcaption>
+      </figure>
+      <figure class="shot shot-person">
+        <div class="shot-ph ph-cherry"><span>Место под фото клиента</span></div>
+        <figcaption>Андрей, владелец Honda CB400</figcaption>
+      </figure>
+      <figure class="shot shot-work">
+        <div class="shot-ph ph-steel"><span>Место под фото работы</span></div>
+        <figcaption>Урал: новый сальник коленвала</figcaption>
+      </figure>
+      <figure class="shot shot-work">
+        <div class="shot-ph ph-khaki"><span>Место под фото работы</span></div>
+        <figcaption>Yamaha XJR1300: цепь и звёзды</figcaption>
+      </figure>
+      <figure class="shot shot-person">
+        <div class="shot-ph ph-ink"><span>Место под фото клиента</span></div>
+        <figcaption>Сергей, владелец Урала</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer" id="contacts">
+  <div class="wrap">
+    <h2 class="footer-title">Как с нами связаться</h2>
+    <div class="contact-blocks">
+      <div class="contact-block">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+        <h3>Позвонить</h3>
+        <p><a href="tel:+79123456789" class="footer-phone">+7 912 345-67-89</a></p>
+        <p class="contact-sub">Вт–Пт 10:00–20:00, суббота 11:00–18:00. Воскресенье и понедельник выходные.</p>
+      </div>
+      <div class="contact-block">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.800 12 21 12 21z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+        <h3>Приехать</h3>
+        <p>ул. Заводская, 7, гараж 12</p>
+        <p class="contact-sub">Парковка для мотоциклов во дворе, бесплатно на время ремонта.</p>
+      </div>
+      <div class="contact-block">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="18" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="18" cy="6" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M8.5 18H15a3 3 0 0 0 0-6H9a3 3 0 0 1 0-6h6.500" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        <h3>Как добраться</h3>
+        <p>От остановки «Завод» три минуты пешком.</p>
+        <p class="contact-sub">Въезжайте через ворота рядом с шиномонтажом, наша синяя дверь справа.</p>
+      </div>
+    </div>
+    <div class="footer-cta">
+      <p class="footer-cta-label">Опишите, что не так, и пришлите фото. Ответим в течение часа в рабочее время.</p>
+      <div class="footer-buttons">
+        <a href="https://wa.me/79123456789" class="btn-primary">Написать в WhatsApp</a>
+        <a href="https://t.me/neutral_moto" class="btn-ghost">Telegram</a>
+      </div>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© Нейтраль, мотомастерская</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
